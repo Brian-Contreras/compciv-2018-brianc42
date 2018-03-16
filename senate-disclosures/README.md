@@ -1,6 +1,13 @@
-	I’m interested in looking at which category of person — Senators or Senate candidates — is more likely to file an Extension or an
-	Amendment to a financial disclosure statement. Because the Financial Disclosure website disaggregates Senators from Senate candidates,
-	it’s easy to identify which category an individual falls into. My task, then, would be to parse the name of each document filed by each person, categorize it based on type of document (normal filing, extension filing, amendment filing), identify trends in which type of person files a greater ratio of which type of document, and display that data. One quirk to this process will be that I’ll have to account for the fact that elected Senators will obviously file more documents overall than candidates do since they can hold their seats for several years (whereas candidates can only run every so often, and oftentimes will only run once). To solve this, I plan to also parse the year in which each document was filed and then divide the number of each documents filed by the number of years in which documents were filed. This way my data will be about the number of Extensions and Amendments filed (by both Senators and Senate candidates) in an average year, rather than ever.
+I’m interested in looking at which category of person — Senators or Senate candidates — is more likely to file an Extension or an
+Amendment to a financial disclosure statement. Because the Financial Disclosure website disaggregates Senators from Senate candidates,
+it’s easy to identify which category an individual falls into. My task, then, would be to parse the name of each document filed by each
+person, categorize it based on type of document (normal filing, extension filing, amendment filing), identify trends in which type of 
+person files a greater ratio of which type of document, and display that data. One quirk to this process will be that I’ll have to 
+account for the fact that elected Senators will obviously file more documents overall than candidates do since they can hold
+their seats for several years (whereas candidates can only run every so often, and oftentimes will only run once). To solve 
+this, I plan to also parse the year in which each document was filed and then divide the number of each documents filed 
+by the number of years in which documents were filed. This way my data will be about the number of Extensions and 
+Amendments filed (by both Senators and Senate candidates) in an average year, rather than ever.
 
 Some sources I’m interested in using are:
 
